@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    margin-right: 10px;
+}
+
+nav .navbar-collapse .btn {
+    background-color: rgb(241, 104, 62);
+    color: white;
+    font-weight: bold;
+}
+
+nav .navbar-collapse .btn:hover {
+    background-color: rgb(238, 89, 44);
+}
+
+.content {
+    padding: 70px 90px 90px 90px;
+
+}
+
+.main-heading h2 {
+    font-family: 'poppins';
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.content .sub-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(119, 132, 145);
+    font-weight: lighter;
+}
+
+.content .sub-content .office-img {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.content .buttons .btn {
+    color: black;
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: 2px #a8a4a4 solid;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.box {
+    transition: 0.3s ease-in-out;
+    height: 400px;
+    margin: 0px 15px;
+    width: 350px;
+    padding: 30px 10px;
+}
+
+.box:hover {
+    transform: scale(1.02);
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box p {
+    font-size: 15px;
+}
+
+p {
+    color: #00000080;
+    font-size: 20px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: playfair Display, serif;
+    font-weight: bold;
+}
+
+
+.card {
+    border-radius: 20px;
+    padding: 32px;
+}
+
+.card-img-top {
+    border-radius: 20px;
+}
+
+.bg-section {
+    background-color: rgb(241, 245, 248);
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: rgb(119, 132, 145);
+}
+
+.hero {
+    margin-top: 120px;
+}
+
+.sec {
+    margin-top: 100px;
+}
+
+.hero2 p {
+    font-size: 18px;
+}
+
+.btn-primary {
+        background: linear-gradient(to right,#f14b4b, #492330);
+        width: 100%;
+        margin-top: 20px;
+}
+
+.form-control {
+    height: 40px;
+    border-radius: 7px;
+    color: #111111;
+    background-color: #e5e5e5;
+}
+
+.iconsf {
+    border-top: 1px solid rgb(189, 176, 176);
+    border-bottom: 1px solid rgb(189, 176, 176);
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 100px;
+}
+
+.iconsf a {
+    color: rgb(117, 115, 115);
+    transition: 0.3s ease-in-out;
+    padding: 0px 5px;
+}
+
+.iconsf a:hover {
+    transform: scale(1.02);
+    color: black;
+}
+
+.coldiv {
+    margin-top: 50px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.coldiv a {
+    padding: 12px;
+}
+
+.coldiv .nav-link {
+    width: fit-content;
+}
